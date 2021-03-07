@@ -43,7 +43,7 @@ public class ExtentReport {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
 		System.out.println(driver.getTitle());
-		
+		System.out.println("Test");
 		extent.flush();
 		//this will stop the listening of the extent report
 
