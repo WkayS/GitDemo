@@ -30,6 +30,7 @@ public class ExtentReport {
 		extent.attachReporter(reporter);
 		//now the main class has the config
 		extent.setSystemInfo("Tester", "KS");
+		//test branch develop
 
 	}
 	
@@ -43,7 +44,7 @@ public class ExtentReport {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
 		System.out.println(driver.getTitle());
-		System.out.println("Test");
+		System.out.println("Test Branch");
 		extent.flush();
 		//this will stop the listening of the extent report
 
